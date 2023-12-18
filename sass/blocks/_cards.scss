@@ -1,0 +1,69 @@
+.cards-row {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  gap: 30px;
+  }
+  .cards-row:last-child {
+    margin-bottom: 0;
+  }
+  
+  .cards-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .card-link-wrapper {
+    transition: 0.3s;
+  }
+  .card-link-wrapper:hover {
+    opacity: 0.8;
+  }
+  .card {
+    width: 570px;
+  }
+  .card.bigger {
+    width: 670px;
+  }
+  .card.smaller {
+    width: 470px;
+    height: 680px;
+  }
+  /* .cards-column > * + * {
+    margin-top: 30px;
+  } */
+  
+  .card-title-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #a6a6a6;
+    height: 80px;
+    color: #ffff;
+  
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .card-title {
+    font-size: 28px;
+    font-weight: 700;
+  
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .card.sand-color .card-title-wrapper {
+    background-color: #c1b19b;
+  }
+  .card.blue-color .card-title-wrapper {
+    background-color: #66b0be;
+  }
+  .card.brown-color .card-title-wrapper {
+    background-color: #876f56;
+  }
+  .card.green-color .card-title-wrapper {
+    background-color: #27695e;
+  }
